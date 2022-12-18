@@ -1,0 +1,11 @@
+Make changes to some files which you have already added to Git once (i.e. they are not under the headline UNTRACKED in the output of git status).
+Stash the changes you just made using Git.
+Open the files you last edited and check if you can still see the changes
+Edit the first sentence of the file story.txt in GitHub and create a commit.
+Then edit the last sentence of the same file locally, but don’t create a commit.
+Fetch the changes you made to story.txt in the remote repository to the local version. Use the stash.
+After you have successfully fetched the changes to the local version, create a commit of the changes you made to the last sentence of story.txt.
+Push the end result to GitHub.
+Make sure you can see both the changes you made to the first sentence and the ones to the last sentence in the remote version.
+If you see “CONFLICT” outputted to the terminal when popping changes from the stash, the section “Merge Conflicts” will help.
+To submit, give the repository link, and make sure all the commits are there!
